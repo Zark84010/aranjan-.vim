@@ -1,0 +1,251 @@
+snippet temp "Sport Programming Template (without tests)"
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
+#pragma GCC optimize("-ffloat-store")
+
+#define fastio ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ll long long
+#define endl '\n'
+
+#define sz(a) ((ll)(a).size())
+#define all(v) (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
+#define tr(c, it) for (auto it = (c).begin(); (it) != (c).end(); it++)
+#define pres(c, val) ((c).find(val) != (c).end())      // for sets, multisets, maps etc.
+#define cpres(c, val) (find((c).begin(), (c).end(), val) != (c).end()) // for others
+
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+
+#define forf(i, a, b) for (ll i = (a); i < (b); i++)
+#define forb(i, a, b) for (ll i = (b); i >= (a); i--)
+#define fo(i, n) forf(i, 0, n)
+#define fob(i, n) forb(i, 0, n - 1)
+
+typedef vector<ll> vll;
+typedef vector<vector<ll>> vvll;
+typedef pair<ll, ll> pll;
+typedef vector<pair<ll, ll>> vpll;
+
+const ll INF = 9e18;
+const ll N = 1000000007;
+//const ll N = 998244353;
+const double eps = 1e-9;
+
+const auto start_time = std::chrono::high_resolution_clock::now();
+
+void TIME() {
+  #ifdef LOCAL
+    auto end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> diff = end_time - start_time;
+    cerr << "Time Taken: " << diff.count() << "s\n";
+  #endif
+}
+
+#ifdef LOCAL
+  #include "./header.h"
+#else
+  #define debug(args...) 42
+#endif
+
+/* ------------------ Actual Coding Starts ------------------ */
+
+void solve() {
+  $1
+}
+
+int32_t main() {
+  fastio;
+  #ifdef LOCAL
+    freopen("txt.in", "r", stdin);
+    freopen("txt.out", "w", stdout);
+  #endif
+  /* cout << fixed << setprecision(10); */
+  solve();
+  TIME();
+  return 0;
+}
+endsnippet
+
+snippet ttemp "Sport Programming Template (with tests)"
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
+#pragma GCC optimize("-ffloat-store")
+
+#define fastio ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ll long long
+#define endl '\n'
+
+#define sz(a) ((ll)(a).size())
+#define all(v) (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
+#define tr(c, it) for (auto it = (c).begin(); (it) != (c).end(); it++)
+#define pres(c, val) ((c).find(val) != (c).end())      // for sets, multisets, maps etc.
+#define cpres(c, val) (find((c).begin(), (c).end(), val) != (c).end()) // for others
+
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+
+#define forf(i, a, b) for (ll i = (a); i < (b); i++)
+#define forb(i, a, b) for (ll i = (b); i >= (a); i--)
+#define fo(i, n) forf(i, 0, n)
+#define fob(i, n) forb(i, 0, n - 1)
+
+typedef vector<ll> vll;
+typedef vector<vector<ll>> vvll;
+typedef pair<ll, ll> pll;
+typedef vector<pair<ll, ll>> vpll;
+
+const ll INF = 9e18;
+const ll N = 1000000007;
+//const ll N = 998244353;
+const double eps = 1e-9;
+
+const auto start_time = std::chrono::high_resolution_clock::now();
+
+void TIME() {
+  #ifdef LOCAL
+    auto end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> diff = end_time - start_time;
+    cerr << "Time Taken: " << diff.count() << "s\n";
+  #endif
+}
+
+#ifdef LOCAL
+  #include "./header.h"
+#else
+  #define debug(args...) 42
+#endif
+
+/* ------------------ Actual Coding Starts ------------------ */
+
+void solve() {
+  $1
+}
+
+int32_t main() {
+  fastio;
+  #ifdef LOCAL
+    freopen("txt.in", "r", stdin);
+    freopen("txt.out", "w", stdout);
+  #endif
+  /* cout << fixed << setprecision(10); */
+  ll t;
+  cin >> t;
+  while(t--) solve();
+  TIME();
+  return 0;
+}
+endsnippet
+
+snippet googletemp "Sport Programming Template (Google Competitions)"
+#include <bits/stdc++.h>
+
+using namespace std;
+
+#pragma GCC optimize("Ofast")
+#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,tune=native")
+#pragma GCC optimize("-ffloat-store")
+
+#define fastio ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
+#define ll long long
+#define endl '\n'
+
+#define sz(a) ((int)(a).size())
+#define all(v) (v).begin(), (v).end()
+#define rall(v) (v).rbegin(), (v).rend()
+#define tr(c, it) for (auto it = (c).begin(); (it) != (c).end(); it++)
+#define pres(c, val) ((c).find(val) != (c).end())      // for sets, multisets, maps etc.
+#define cpres(c, val) (find((c).begin(), (c).end(), val) != (c).end()) // for others
+
+#define pb push_back
+#define mp make_pair
+#define fi first
+#define se second
+
+#define forf(i, a, b) for (int i = (a); i < (b); i++)
+#define forb(i, a, b) for (int i = (b); i >= (a); i--)
+#define fo(i, n) forf(i, 0, n)
+#define fob(i, n) forb(i, 0, n - 1)
+
+typedef vector<ll> vll;
+typedef vector<vector<ll>> vvll;
+typedef pair<ll, ll> pll;
+typedef vector<pair<ll, ll>> vpll;
+
+const ll INF = 9e18;
+const int N = 1000000007;
+//const int N = 998244353;
+const double eps = 1e-9;
+
+const auto start_time = std::chrono::high_resolution_clock::now();
+
+void TIME() {
+  #ifdef LOCAL
+    auto end_time = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double> diff = end_time - start_time;
+    cerr << "Time Taken: " << diff.count() << "s\n";
+  #endif
+}
+
+#ifdef LOCAL
+  #include "./header.h"
+#else
+  #define debug(args...) 42
+#endif
+
+/* ------------------ Actual Coding Starts ------------------ */
+
+void solve() {
+  $1
+}
+
+int32_t main() {
+  fastio;
+  #ifdef LOCAL
+    freopen("txt.in", "r", stdin);
+    freopen("txt.out", "w", stdout);
+  #endif
+  /* cout << fixed << setprecision(10); */
+  int t;
+  cin >> t;
+  forf(tt, 1, t+1) {
+    cout << "Case #" << tt << ":\n";
+    solve();
+  }
+  TIME();
+  return 0;
+}
+endsnippet
+
+snippet sieve "Sieve of Eratosthenes"
+// lp[i] = lowest prime dividing i
+// can also calculate other multiplicative functions f
+// but must know property of f(i * p) when p | i
+// like phi(i * p) = phi(i) * p when p | i
+vector<int> sieve(int n) {
+  vector<int> lp(n+1), pr$1;
+  for(int i = 2; i <= n; ++i) {
+    if(lp[i] == 0) {
+      lp[i] = i;
+      pr.push_back(i);
+    }
+    for(int j = 0; j < (int)pr.size() && pr[j]<=lp[i] && i*pr[j] <= n; ++j)
+      lp[i * pr[j]] = pr[j];
+  }
+  return lp;
+}
+endsnippet
+
