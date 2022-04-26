@@ -1,3 +1,39 @@
 [submodule "pack/vim-themes/opt/onedark.vim"]
 	path = pack/vim-themes/opt/onedark.vim
 	url = https://github.com/joshdick/onedark.vim.git
+[submodule "pack/vim-themes/opt/vim-monokai"]
+	path = pack/vim-themes/opt/vim-monokai
+	url = https://github.com/sickill/vim-monokai.git
+[submodule "pack/helpful-plugins/start/vim-airline"]
+	path = pack/helpful-plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "pack/helpful-plugins/start/vim-airline-themes"]
+	path = pack/helpful-plugins/start/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "pack/helpful-plugins/start/vim-commentary"]
+	path = pack/helpful-plugins/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "pack/helpful-plugins/start/vim-startify"]
+	path = pack/helpful-plugins/start/vim-startify
+	url = git@github.com:mhinz/vim-startify.git
+[submodule "pack/lang-support/start/julia-vim"]
+	path = pack/lang-support/start/julia-vim
+	url = git@github.com:JuliaEditorSupport/julia-vim.git
+[submodule "pack/lang-support/start/vim-latex"]
+	path = pack/lang-support/start/vim-latex
+	url = git@github.com:vim-latex/vim-latex.git
+[submodule "pack/snippet-mgmt/start/supertab"]
+	path = pack/snippet-mgmt/start/supertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "pack/snippet-mgmt/start/ultisnips"]
+	path = pack/snippet-mgmt/start/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
+[submodule "pack/snippet-mgmt/start/vim-snippets"]
+	path = pack/snippet-mgmt/start/vim-snippets
+	url = git@github.com:honza/vim-snippets.git
+[submodule "pack/vim-autocomplete/start/vim-cpp-modern"]
+	path = pack/vim-autocomplete/start/vim-cpp-modern
+	url = git@github.com:bfrg/vim-cpp-modern.git
+[submodule "pack/vim-autocomplete/start/YouCompleteMe"]
+	path = pack/vim-autocomplete/start/YouCompleteMe
+	url = git@github.com:ycm-core/YouCompleteMe.git
