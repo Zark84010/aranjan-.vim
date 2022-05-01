@@ -34,6 +34,3 @@
 [submodule "pack/vim-autocomplete/start/vim-cpp-modern"]
 	path = pack/vim-autocomplete/start/vim-cpp-modern
 	url = git@github.com:bfrg/vim-cpp-modern.git
-[submodule "pack/vim-autocomplete/start/YouCompleteMe"]
-	path = pack/vim-autocomplete/start/YouCompleteMe
-	url = git@github.com:ycm-core/YouCompleteMe.git
