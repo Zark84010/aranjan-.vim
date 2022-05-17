@@ -34,3 +34,9 @@
 [submodule "pack/vim-autocomplete/start/vim-cpp-modern"]
 	path = pack/vim-autocomplete/start/vim-cpp-modern
 	url = git@github.com:bfrg/vim-cpp-modern.git
+[submodule "pack/helpful-plugins/start/nerdtree"]
+	path = pack/helpful-plugins/start/nerdtree
+	url = git@github.com:preservim/nerdtree.git
+[submodule "pack/helpful-plugins/start/nerdtree-git-plugin"]
+	path = pack/helpful-plugins/start/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
